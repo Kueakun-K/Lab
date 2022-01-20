@@ -1,7 +1,41 @@
 <html>
+    <head>
+        <style>
+            .content { 
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                text-align: center;    
+                margin: auto;  
+            }
+            .block {
+                width: 100%;
+                
+            }
+            .block img{
+                margin-top: 5%;
+                transition: 2s;
+            }
+            .block img:hover{
+                transform: scale(1.1);
+            }
+            .block p{
+                font-size: 25px;
+                font-weight: bold;
+            }
+            img {
+                width: 30%;
+                height: 450px;
+            }
+        </style>
+    </head>
     <body>
-        <img src="img/me.JPG" alt="Me">
-        <h1>Kueakun Niyomsit</h1>
-        <h2>KMITL</h2>
+        <div class="content">
+                <div class="block">
+                    <img src="img/me.JPG" alt="Me">
+                <p>Kueakun Niyomsit</p>
+                <p>63010095</p>
+                </div>
+        </div>
     </body>
 </html>
